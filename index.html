@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Restaurant</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="mainbox">
+      <h1>MENU ITEMS</h1>
+
+      <div class="menu">
+        <div class="item">
+          <img src="./assets/pizza.jpg" alt="Pizza" />
+          <h2>Pizza</h2>
+          <span>$4.50</span>
+          <button class="remove" data-name="Pizza" data-price="4.50"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"/></svg></button>
+          <button class="add" data-name="Pizza" data-price="4.50"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg></button>
+        </div>
+
+        <div class="item">
+          <img src="./assets/burger.jpg" alt="Burger" />
+          <h2>Burger</h2>
+          <span>$3.50</span>
+          <button class="remove" data-name="Burger" data-price="3.50"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"/></svg></button>
+          <button class="add" data-name="Burger" data-price="3.50"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg></button>
+        </div>
+
+        <div class="item">
+          <img src="./assets/pasta.jpg" alt="Pasta" />
+          <h2>Pasta</h2>
+          <span>$6.50</span>
+          <button class="remove" data-name="Pasta" data-price="6.50"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"/></svg></button>
+          <button class="add" data-name="Pasta" data-price="6.50"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg></button>
+        </div>
+
+        <div class="item">
+          <img src="./assets/salad.jpg" alt="Salad" />
+          <h2>Salad</h2>
+          <span>$2.50</span>
+          <button class="remove" data-name="Salad" data-price="2.50"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"/></svg></button>
+          <button class="add" data-name="Salad" data-price="2.50"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg></button>
+        </div>
+
+        <div class="item">
+          <img src="./assets/steak.jpg" alt="Steak" />
+          <h2>Steak</h2>
+          <span>$14.20</span>
+          <button class="remove" data-name="Steak" data-price="14.20"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"/></svg></button>
+          <button class="add" data-name="Steak" data-price="14.20"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg></button>
+        </div>
+
+        <div class="item">
+          <img src="./assets/sushi.jpeg" alt="Sushi" />
+          <h2>Sushi</h2>
+          <span>$6.50</span>
+          <button class="remove" data-name="Sushi" data-price="6.50"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"/></svg></button>
+          <button class="add" data-name="Sushi" data-price="6.50"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg></button>
+        </div>
+
+        <div class="item">
+          <img src="./assets/tacos.webp" alt="Tacos" />
+          <h2>Tacos</h2>
+          <span>$1.50</span>
+          <button class="remove" data-name="Tacos" data-price="1.50"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"/></svg></button>
+          <button class="add" data-name="Tacos" data-price="1.50"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg></button>
+        </div>
+
+        <div class="item">
+          <img src="./assets/bacon.jpg" alt="Bacon" />
+          <h2>Bacon</h2>
+          <span>$1.20</span>
+          <button class="remove" data-name="Bacon" data-price="1.20"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"/></svg></button>
+          <button class="add" data-name="Bacon" data-price="1.20"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart" id="cart">
+      <div class="head">
+        <h2>My Cart</h2>
+        <button class="close">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000">
+            <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+          </svg>
+        </button>
+      </div>
+      
+      <ul id="cartItems"></ul>
+      
+      <div class="bottom">
+        <div class="total">Total: <span id="total">$0.00</span></div>
+        <button class="checkout">Checkout</button>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
